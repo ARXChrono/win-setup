@@ -5,7 +5,7 @@
 
 ## 👋 Welcome
 
-Setup and Configure a fresh install of windows
+An Unattended scrript that installs setup and configures windows after a fresh install of windows to my personal preference.
 
 ## 🚀 Lets go
 
