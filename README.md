@@ -9,8 +9,8 @@ Setup and Configure a fresh install of windows
 
 ## 🚀 Lets go
 
-Run in Windows Powershell
+Run in Windows Powershell as Administrator
 
 ```
-https://raw.githubusercontent.com/ARXChrono/win-setup/master/setup.ps1
+iwr https://raw.githubusercontent.com/ARXChrono/win-setup/master/setup.ps1 -UseBasicParsing | iex
 ```

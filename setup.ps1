@@ -1,3 +1,4 @@
+# Install Chocolatey
 Try
 {
   choco --version
@@ -16,5 +17,5 @@ if($chocolateyInstalled)
 else
 {
   Write-Host "Install Chocolatey"
-  iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+  Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
