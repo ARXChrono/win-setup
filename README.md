@@ -5,7 +5,7 @@
 
 ## 👋 Welcome
 
-An Unattended scrript that installs setup and configures windows after a fresh install of windows to my personal preference.
+An unattended script that install setups and configures windows to my personal preference. This is best used on a freshly installed OS.
 
 ## 🚀 Lets go
 
