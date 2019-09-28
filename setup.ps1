@@ -33,6 +33,7 @@ choco install -y spotify vlc
 # Apps
 choco install -y qbittorrent
 choco install -y vscode
+choco install -y figma
 choco install -y todolist
 
 # Utils
@@ -60,6 +61,10 @@ choco install -y git.install
 choco install -y nodejs.install
 choco install -y yarn
 choco install -y epicgameslauncher
+choco install -y unity
+
+# System
+choco install -y geforce-experience 
 
 # VS Code Plugins
 refreshenv

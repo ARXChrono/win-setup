@@ -9,8 +9,14 @@ An unattended script that install setups and configures windows to my personal p
 
 ## 🚀 Lets go
 
-Run in Windows Powershell as Administrator
+**Run in Windows Powershell as Administrator**
 
-```
+My Setup
+```powershell
 iwr https://raw.githubusercontent.com/ARXChrono/win-setup/master/setup.ps1 -UseBasicParsing | iex
+```
+
+Minimal Setup
+```powershell
+iwr https://raw.githubusercontent.com/ARXChrono/win-setup/master/setup-minimal.ps1 -UseBasicParsing | iex
 ```
