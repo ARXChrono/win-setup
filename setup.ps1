@@ -20,6 +20,11 @@ else
   Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
+# Windows Settings
+Write-Host "Power and Sleep adjusted to never"
+Powercfg /Change -monitor-timeout-ac 0
+Powercfg /Change -disk-timeout-ac 0
+
 # Browsers
 choco install -y googlechrome firefox
 choco install -y adblockplus-firefox
@@ -45,6 +50,7 @@ choco install -y adobereader
 choco install -y lightshot
 choco install -y handbrake
 choco install -y treesizefree
+choco install -y therenamer
 
 # Network
 choco install -y wireshark

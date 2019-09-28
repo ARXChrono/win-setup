@@ -20,6 +20,11 @@ else
   Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
+# Windows Settings
+Write-Host "Power and Sleep adjusted to never"
+Powercfg /Change -monitor-timeout-ac 0
+Powercfg /Change -disk-timeout-ac 0
+
 # Browsers
 choco install -y googlechrome
 
