@@ -23,7 +23,7 @@ else
 # Windows Settings
 Write-Host "Power and Sleep adjusted to never"
 Powercfg /Change -monitor-timeout-ac 0
-Powercfg /Change -disk-timeout-ac 0
+Powercfg /Change -standby-timeout-ac 0
 
 # Browsers
 choco install -y googlechrome firefox
