@@ -51,6 +51,7 @@ choco install -y lightshot
 choco install -y handbrake
 choco install -y treesizefree
 choco install -y therenamer
+choco install -y sharpkeys
 
 # Network
 choco install -y wireshark
