@@ -39,7 +39,6 @@ choco install -y spotify vlc
 choco install -y qbittorrent
 choco install -y vscode
 choco install -y figma
-choco install -y todolist
 
 # Utils
 choco install -y 7zip 
@@ -52,6 +51,7 @@ choco install -y handbrake
 choco install -y treesizefree
 choco install -y therenamer
 choco install -y sharpkeys
+choco install -y powertoys
 
 # Network
 choco install -y wireshark
