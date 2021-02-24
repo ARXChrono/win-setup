@@ -52,6 +52,7 @@ choco install -y treesizefree
 choco install -y therenamer
 choco install -y sharpkeys
 choco install -y powertoys
+choco install -y warp
 
 # Network
 choco install -y wireshark
