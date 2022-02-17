@@ -24,7 +24,7 @@ else
 choco install -y googlechrome
 
 # Media
-choco install -y vlc
+choco install -y vlc-nightly
 
 # Utils
 choco install -y nanazip.portable
