@@ -32,7 +32,7 @@ choco install -y googlechrome
 choco install -y discord
 
 # Media
-choco install -y spotify vlc
+choco install -y spotify vlc-nightly
 
 # Apps
 choco install -y qbittorrent
