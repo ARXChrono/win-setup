@@ -28,14 +28,9 @@ Powercfg /Change -standby-timeout-ac 0
 # Browsers
 choco install -y googlechrome
 
-# Media
-choco install -y spotify vlc
-
 # Utils
-choco install -y 7zip 
-choco install -y imgburn
+choco install -y nanazip.portable
 choco install -y adobereader
-choco install -y lightshot
 
 # Runtimes
 choco install -y silverlight
