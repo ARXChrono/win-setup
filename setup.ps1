@@ -46,7 +46,6 @@ choco install -y adobereader
 choco install -y treesizefree
 choco install -y powertoys
 choco install -y warp
-choco install -y protonvpn
 
 # Runtimes
 choco install -y silverlight
