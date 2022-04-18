@@ -7,6 +7,9 @@
 
 An unattended script that install setups and configures windows to my personal preference. This is best used on a freshly installed OS.
 
+This script has been updated for windows 11.
+
+
 ## 🚀 Lets go
 
 **Run in Windows Powershell as Administrator**
